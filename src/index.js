@@ -23,16 +23,19 @@ function ConvictCommander(commander) {
         return;
       }
 
-      const def = '--' + param.arg + (param.format !== Boolean ?
-        ' <' + paramName + '>' :
-          '');
-      const doc = param.doc + (param.default == null ? ' (mandatory)' : ' [default: ' + param.default + ']');
+      const def = '--' + param.arg + ( param.format !== Boolean ? ' <' + paramName + '>' : '' );
+
+      const opts = []
+      if (param.default) {
+        opts.push('default: ' + param.default)
+      }
+      if (typeof param.env !== 'undefined') {
+        opts.push('env: ' + param.env)
+      }
+
+      const doc = param.doc + (param.default == null ? ' (mandatory)' : ' [' + opts.join(', ') + ']');
 
       commander.option(def, doc);
-
-      if (typeof param.env !== 'undefined') {
-        commander.option('', 'Environment var: ' + param.env);
-      }
     });
   };
 

@@ -1,6 +1,6 @@
 {
   "name": "@mathquis/node-commander-convict",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Commander + Convict",
   "main": "src/index.js",
   "dependencies": {
@@ -17,6 +17,5 @@
   "bugs": {
     "url": "https://github.com/mathquis/node-commander-convict/issues"
   },
-  "homepage": "https://github.com/mathquis/node-commander-convict#readme",
-  "license": "ISC"
+  "homepage": "https://github.com/mathquis/node-commander-convict#readme"
 }
