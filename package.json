@@ -1,0 +1,22 @@
+{
+  "name": "commander-convict",
+  "version": "1.0.0",
+  "description": "Commander + Convict",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^8.3.0"
+  },
+  "devDependencies": {
+    "convict": "^6.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathieu \"Fastjack\" Quisefit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathquis/node-commander-convict/issues"
+  },
+  "homepage": "https://github.com/mathquis/node-commander-convict#readme",
+  "license": "ISC"
+}
