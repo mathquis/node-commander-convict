@@ -2,7 +2,7 @@
   "name": "@mathquis/node-commander-convict",
   "version": "0.0.1",
   "description": "Commander + Convict",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "commander": "^8.3.0"
   },
