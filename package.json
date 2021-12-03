@@ -1,5 +1,5 @@
 {
-  "name": "@mathquis/commander-convict",
+  "name": "@mathquis/node-commander-convict",
   "version": "1.0.0",
   "description": "Commander + Convict",
   "main": "index.js",
